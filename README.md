@@ -3,10 +3,11 @@
 ⚠️ Identifiable is new-as-can-be and lots of stuff is missing. Feel free to
 [contribute][CONTRIBUTING].
 
-Identifiable is a library that lets you get rid of the string-based identifying of
-`UIViewController` when instantiating from storyboards, and instead deal with them
-in a type-safe way. Support for *reuseIdentifiers* for `UITableViewCells` and
-`UICollectionViewCell` are coming. 
+Identifiable is a library that lets you get rid of the string-based identifying
+when instantiating `UIViewControllers` from storyboards, or when loading a
+`UIStoryboard` from a file, and instead deal with them in a type-safe way.
+Support for *reuseIdentifiers* for `UITableViewCells` and `UICollectionViewCell`
+is coming. 
 
 ## Usage tl;dr:
 
@@ -29,6 +30,17 @@ let firstViewController = MainStoryboard.instantiateInitialViewController(MyInit
 let secondViewController = MainStoryboard.instantiateViewController(MySecondViewController.self)
 firstViewController.present(secondViewController, animated: true)
 ```
+
+The key here is in the declaration of the classes `MainStoryboard`,
+`MyInitialViewController`, and `MySecondViewController`.
+By declaring them with the mixin `Identifiable`, it becomes possible for
+them to talk with, and use each other, in an agreed upon language. The only
+important details to remember is that any `UIViewController`s storyboard
+ID should be the same as it's class name, meaning that the view controller of
+type `MySecondViewController` must have the storyboard ID
+`MySecondViewController`. Likewise, `MainStoryboard` will only be
+*identifiable* if a storyboard with the file name `MainStoryboard.storyboard`
+exists.
 
 For more information, see the [Documentation](DOCUMENTATION.md).
 
