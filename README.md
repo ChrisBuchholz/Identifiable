@@ -1,4 +1,4 @@
-# Identifiable
+# Identifiable [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ⚠️ Identifiable is new-as-can-be and lots of stuff is missing. Feel free to
 [contribute][CONTRIBUTING].
@@ -48,9 +48,7 @@ For more information, see the [Documentation](DOCUMENTATION.md).
 
 Note that we're aggressive about pushing `master` forward along with new
 versions of Swift. Therefore, we highly recommend against pointing at `master`,
-and instead using [one of the releases we've provided][releases], which there
-currently are none of, which is another way of saying that shit is going down
-and stuff is breaking all over the place at the moment.
+and instead using [one of the releases we've provided][releases].
 
 Here is the current Swift compatibility breakdown:
 
