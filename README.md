@@ -1,4 +1,4 @@
-# Identifiable [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Identifiable [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://travis-ci.org/ChrisBuchholz/Identifiable.svg?branch=master)](https://travis-ci.org/ChrisBuchholz/Identifiable)
 
 ⚠️ Identifiable is new-as-can-be and lots of stuff is missing. Feel free to
 [contribute][CONTRIBUTING].
