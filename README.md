@@ -1,4 +1,9 @@
-# Identifiable [![Build Status](https://travis-ci.org/ChrisBuchholz/Identifiable.svg?branch=master)](https://travis-ci.org/ChrisBuchholz/Identifiable) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Identifiable
+
+[![Build Status](https://travis-ci.org/ChrisBuchholz/Identifiable.svg?branch=master)](https://travis-ci.org/ChrisBuchholz/Identifiable)
+![platforms](https://img.shields.io/badge/platforms-iOS-333333.svg)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ⚠️ Identifiable is new-as-can-be and lots of stuff is missing. Feel free to
 [contribute][CONTRIBUTING].
